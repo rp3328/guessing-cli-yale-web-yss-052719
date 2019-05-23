@@ -9,7 +9,8 @@ def run_guessing_game
       break
     elsif input == num
       puts "You guessed the correct number!"
-    else
+    elsif input != num
+      
       puts "The computer guessed #{num}"
     end
 
