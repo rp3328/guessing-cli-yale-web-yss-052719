@@ -14,8 +14,5 @@ def run_guessing_game
     else
       puts "Wrong input type"
     end
-
-
-
   end
 end
